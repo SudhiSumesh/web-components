@@ -1,6 +1,6 @@
 # Table Web Component in React
 
-This project demonstrates how to integrate a custom Web Component named `table` into a React application. The `table` component is a reusable table element that accepts dynamic data and headers, and encapsulates its own styles using the Shadow DOM.
+This project demonstrates how to integrate a custom Web Component n into a React application. The `table` component is a reusable table element that accepts dynamic data and headers, and encapsulates its own styles using the Shadow DOM.
 
 ## Project Setup
 
@@ -39,11 +39,3 @@ This project demonstrates how to integrate a custom Web Component named `table` 
 
     The app will be served at `http://localhost:3000`.
 
-## Usage
-
-### Web Component: `trillium-table`
-
-The `table` Web Component is designed to display tabular data. It accepts two main inputs:
-
-- **`data-headers` (Attribute):** A comma-separated string of table headers.
-- **`data` (Property):** A 2D array representing the rows of the table.
