@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+  min-width: 1000px;
+}
+thead tr {
+  background-color: #0bb0b0;
+  color: white;
+  text-align: left;
+}
+
+th,
+td {
+  font-weight: normal;
+  padding: 6px 12px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #97cccc53 ;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
