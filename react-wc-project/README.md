@@ -1,8 +1,49 @@
-# React + Vite
+# Table Web Component in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to integrate a custom Web Component named `table` into a React application. The `table` component is a reusable table element that accepts dynamic data and headers, and encapsulates its own styles using the Shadow DOM.
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn
+
+### Installation
+
+1.  **Clone the repository:**
+
+        ```bash
+
+    https://github.com/SudhiSumesh/web-components.git
+    cd your-project-folder
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+    Or, if you prefer `yarn`:
+
+    ```bash
+    yarn install
+    ```
+
+3.  **Run the application:**
+
+    ```bash
+    npm start
+    ```
+
+    The app will be served at `http://localhost:3000`.
+
+## Usage
+
+### Web Component: `trillium-table`
+
+The `table` Web Component is designed to display tabular data. It accepts two main inputs:
+
+- **`data-headers` (Attribute):** A comma-separated string of table headers.
+- **`data` (Property):** A 2D array representing the rows of the table.

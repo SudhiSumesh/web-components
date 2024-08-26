@@ -11,20 +11,18 @@ export class Table extends HTMLElement {
     this.shadowRoot.innerHTML = `
     <link rel="stylesheet" href="Components/Table.css">
     <table>
-<thead>
-<tr>
-${headers
-  ?.map(
-    (header) => `
-    <th>${header}</th>`
-  )
-  .join("")}
-
-</tr>
-
-</thead>
-<tbody><tbody>
-    </table>
+     <thead>
+      <tr>
+      ${headers
+        ?.map(
+          (header) => `
+         <th>${header}</th>`
+        )
+        .join("")} 
+           </tr>
+        </thead>
+      <tbody><tbody>
+     </table>
     `;
   }
   /**

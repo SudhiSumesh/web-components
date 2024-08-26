@@ -2,17 +2,9 @@ import React, { useEffect, useRef } from "react";
 import "./App.css";
 
 function App() {
-  // const tableData = [
-  //   ["123", "Amal", "Krish", " 4433"],
-  //   ["124", "Jackson", "Sam", " 4423"],
-  // ];
-  // const patientTable = document.getElementById("users");
-
-  // patientTable.data = tableData;
-
   const tableRef = useRef(null);
   const tableData = [
-    ["123", "Amal", "Krish", "4433"],
+    ["123", "Amal", "Krish", "443"],
     ["124", "Jackson", "Sam", "423"],
   ];
 
